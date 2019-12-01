@@ -1,15 +1,14 @@
-package com.scl.online.granpht.demo;
+package com.scl.online.jgraht;
 
 import org.jgrapht.GraphPath;
 import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleDirectedWeightedGraph;
 
+/**
+ * 参考： https://www.cnblogs.com/sunupo/p/10047627.html
+ */
 public class CalShortestPath {
-    //    private  String[] str={"u0","u1","u2","u3","u4","u5","u6","u7"};
-//    private int[] startPoint={0,0,0,1,1,3,3,3,3,2,4,5,5,4,6};
-//    private int[] endPoint={1,3,2,4,3,4,5,6,2,6,5,6,7,7,7};
-//    private double[] weights={2,8,1,1,6,5,1,2,7,9,3,4,6,9,3};
     private String[] str;
     private int[] startPoint;
     private int[] endPoint;
@@ -41,7 +40,7 @@ public class CalShortestPath {
     public static void main(String[] args) {
         String[] str = {"u0", "u1", "u2", "u3", "u4", "u5", "u6", "u7"};
         int[] startPoint = {0, 0, 0, 1, 1, 3, 3, 3, 3, 2, 4, 5, 5, 4, 6};
-        int[] endPoint = {1, 3, 2, 4, 3, 4, 5, 6, 2, 6, 5, 6, 7, 7, 7};
+        int[] endPoint =   {1, 3, 2, 4, 3, 4, 5, 6, 2, 6, 5, 6, 7, 7, 7};
         double[] weights = {2, 8, 1, 1, 6, 5, 1, 2, 7, 9, 3, 4, 6, 9, 3};
         CalShortestPath calShortestPath = new CalShortestPath(str, startPoint, endPoint, weights);
         calShortestPath.getShortestPath();

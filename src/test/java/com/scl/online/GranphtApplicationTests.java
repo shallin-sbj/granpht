@@ -1,4 +1,4 @@
-package com.scl.online.granpht;
+package com.scl.online;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.scl.online.granpht;
+package com.scl.online;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

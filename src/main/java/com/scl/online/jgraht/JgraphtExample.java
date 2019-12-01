@@ -1,4 +1,4 @@
-package com.scl.online.granpht.demo;
+package com.scl.online.jgraht;
 
 import org.apache.commons.lang3.StringUtils;
 import org.jgrapht.Graph;
@@ -78,16 +78,7 @@ public class JgraphtExample {
         while (breadthFirstIterator.hasNext()) {
             String p = breadthFirstIterator.next();
             System.out.println(p);
-            /*
-             * <pre>
-             * A
-             * B
-             * C
-             * D
-             * E
-             * F
-             * </pre>
-             */
+
         }
 
         // 图中“环”的操作
